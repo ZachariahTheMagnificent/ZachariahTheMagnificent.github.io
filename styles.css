@@ -1,29 +1,175 @@
-h1 {
-    color: red;
+* {
+  color: rgb(0, 0, 0);
+  font-family: 'Red Hat Text', sans-serif;
 }
 
-a:hover {
-    color: lightcoral;
+h1 {
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
 }
-a:active {
-    color: salmon;
+h2 {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
 }
-a:visited {
-    color: hotpink;
+h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  font-size: 1.15rem;
+  margin: 0;
+  padding: 0;
+}
+h5 {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+h6 {
+  font-size: 1.05rem;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: navy;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  background: rgb(256, 256, 256);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
 
-div#main_panel {
-    margin: auto;
-    padding: 50px;
-    border: 5px solid turquoise;
-    background: wheat;
+.main-header {
+  max-width: 43rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.3rem;
 }
 
-div#bottomPage {
-    margin: auto;
-    background: wheat;
+.main-title {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main-title-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.main-title-sub {
+  text-align: center;
+}
+
+.main-title-border-top {
+  transform: scale(1, 1);
+}
+
+.main-title-border-bottom {
+  transform: scale(1, -1);
+}
+
+.main-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  gap: 0.5rem 5rem;
+}
+
+.main-container {
+  max-width: 43rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 21rem));
+  justify-content: center;
+  align-content: start;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.main-first-row-container {
+  max-width: 21rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main-second-row-container {
+  max-width: 21rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-container {
+  max-width: 21rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.section-title-border-top {
+}
+
+.section-title-border-bottom {
+  transform: scale(1, -1);
+}
+
+.section-title {
+  text-align: center;
+}
+
+.subsection-title {
+  text-align: center;
+}
+
+.subsection-title-sub {
+  text-align: center;
+}
+
+.main-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.1rem 0.2rem;
+}
+
+.main-list > li {
+  background-color: #a8d5e5;
+  text-align: center;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
 }
