@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zachariah/Software Projects/Public Projects/ZachariahTheMagnificent.github.io/build",
+  "command": "\"/home/zachariah/Software Projects/Public Projects/emsdk/upstream/emscripten/em++\" -I\"/home/zachariah/Software Projects/Public Projects/ZachariahTheMagnificent.github.io/Asteroids/include\" -g -std=gnu++20 -o Asteroids/CMakeFiles/Asteroids.dir/src/main.cpp.o -c \"/home/zachariah/Software Projects/Public Projects/ZachariahTheMagnificent.github.io/Asteroids/src/main.cpp\"",
+  "file": "/home/zachariah/Software Projects/Public Projects/ZachariahTheMagnificent.github.io/Asteroids/src/main.cpp"
+}
+]
