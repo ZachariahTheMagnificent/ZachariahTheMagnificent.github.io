@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="2680pt"
+   width="5440pt"
    height="105pt"
-   viewBox="0 0 2680 105"
+   viewBox="0 0 5440 105"
    preserveAspectRatio="xMidYMid"
    id="svg24"
    sodipodi:docname="section title border2.svg"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -33,9 +33,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.19101563"
-     inkscape:cx="2575.7055"
-     inkscape:cy="1821.8405"
+     inkscape:zoom="0.13506845"
+     inkscape:cx="3405.6807"
+     inkscape:cy="1303.043"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
      inkscape:window-x="0"
@@ -47,7 +47,7 @@
 Created by potrace 1.15, written by Peter Selinger 2001-2017
 </metadata>
   <g
-     transform="matrix(0.10000437,0,0,-0.10061069,699.83704,374.13359)"
+     transform="matrix(0.10000437,0,0,-0.10061069,2079.8371,374.13359)"
      fill="#000000"
      stroke="none"
      id="g22">
@@ -57,11 +57,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
          d="m 16,3017 c -24,-18 -17,-48 14,-64 20,-10 453,-12 2148,-10 2089,2 2124,2 2138,21 18,25 18,31 -2,50 -14,14 -223,16 -2148,16 -1747,0 -2135,-2 -2150,-13 z"
          id="path14"
          class="UnoptimicedTransforms"
-         transform="matrix(2.6174427,0,0,1,-7002.3291,0.0019809)" />
+         transform="matrix(5.8061152,0,0,1,-20806.922,0.0019809)" />
       <path
-         d="m 8510.6666,3014 c -52.3287,-19 -52.3287,-25 -5.2329,-50 36.6302,-19 128.2053,-19 5593.9403,-21 5876.512,-3 5672.431,-4 5693.363,42 26.164,47 269.492,45 -5661.966,45 -5036.6392,0 -5583.4742,-2 -5620.1044,-16 z"
+         d="m 8559.2951,3014 c -116.0624,-19 -116.0624,-25 -11.6064,-50 81.2439,-19 284.3529,-19 12407.0773,-21 13033.807,-3 12581.164,-4 12627.591,42 58.03,47 597.721,45 -12557.954,45 -11171.0116,0 -12383.864,-2 -12465.1079,-16 z"
          id="path16"
-         style="stroke-width:1.61755" />
+         style="stroke-width:2.40898" />
     </g>
     <g
        id="g525">

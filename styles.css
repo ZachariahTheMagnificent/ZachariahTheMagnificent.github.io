@@ -45,6 +45,10 @@ body {
   gap: 1rem;
 }
 
+p {
+  margin: 0;
+}
+
 .main-header {
   max-width: 43rem;
   display: flex;
@@ -128,12 +132,17 @@ body {
   text-align: center;
 }
 
-.subsection-title {
+.article-title {
   text-align: center;
 }
 
-.subsection-title-sub {
-  text-align: center;
+.section-article-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .main-list {
@@ -153,8 +162,4 @@ body {
   text-align: center;
   padding: 0.1rem 0.3rem;
   border-radius: 0.2rem;
-}
-
-p {
-  margin: 0.2rem 0rem 0.2rem 0rem
 }
