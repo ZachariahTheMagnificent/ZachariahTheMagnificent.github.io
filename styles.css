@@ -49,6 +49,11 @@ p {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .main-header {
   max-width: 43rem;
   display: flex;
@@ -102,11 +107,10 @@ p {
 
 .main-container {
   max-width: 43rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit);
-  /*grid-template-columns: repeat(auto-fit, minmax(0, 21rem));*/
-  justify-content: center;
-  align-content: start;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-content: flex-start;
   align-items: start;
   gap: 0.5rem;
 }
