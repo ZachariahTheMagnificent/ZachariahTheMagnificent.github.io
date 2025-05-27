@@ -12,113 +12,94 @@
   <meta name="author" content="Muhammad Shafik Bin Mazlinan" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script type="text/javascript" src="main.js"></script>
+  <script type="module" src="main.mjs"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/styles.css?1">
+  <link rel="stylesheet" href="/styles.css">
   <link rel="icon" type="image/jpg" href="favicon.jpg" />
 </head>
 
-<body onload="main();">
-  <header class="main-header">
-    <div class="main-title">
-      <img src="main title border5.svg" width="600" height="20" class="main-title-border-top">
-      <div class="main-title-text">
-        <h1 class="main-title">Muhammad Shafik Bin Mazlinan</h1>
-        <h2 class="main-title-sub">Software Engineer</h2>
-      </div>
-      <img src="main title border5.svg" width="600" height="20" class="main-title-border-bottom">
-    </div>
-    <!--
-      <nav>
-        <ul class="main-nav-list">
-          <li><a href="">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
--->
+<body>
+  <header class="main-title">
+    <hgroup>
+      <h1>Muhammad Shafik Bin Mazlinan</h1>
+      <h2>Software Engineer</h2>
+    </hgroup>
   </header>
 
   <main class="main-container">
-    <address class="section-container">
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-top">
-      <h3 class="section-title">Contact Info</h3>
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-bottom">
-      <ul class="main-list">
-        <li>+65 83501965</li>
-        <li>22 Sin Ming Lane #06-76 Midview City Singapore 573969</li>
-        <li><a href="mailto:zachariah@zachariahs.world">zachariah@zachariahs.world</a></li>
-        <li><a href=https://www.zachariahs.world />zachariahs.world</a></li>
-        <li><a href="https://www.github.com/ZachariahTheMagnificent/">github.com/ZachariahTheMagnificent</a></li>
-        <li><a href="linkedin.com/in/muhammad-shafik-bin-mazlinan">linkedin.com/in/muhammad-shafik-bin-mazlinan</a></li>
-        <li><a href="https://www.hackerrank.com/zachariah2">hackerrank.com/zachariah2</a></li>
-      </ul>
-    </address>
+    <section>
+      <address>
+        <h3 class="section-title">Contact Info</h3>
+        <ul>
+          <li>+65 83501965</li>
+          <li>22 Sin Ming Lane #06-76 Midview City Singapore 573969</li>
+          <li><a href="mailto:zachariah@zachariahs.world">zachariah@zachariahs.world</a></li>
+          <li><a href="https://www.zachariahs.world/">www.zachariahs.world</a></li>
+          <li><a href="https://www.github.com/ZachariahTheMagnificent/">github.com/ZachariahTheMagnificent</a></li>
+          <li>
+            <a href="linkedin.com/in/muhammad-shafik-bin-mazlinan">
+              linkedin.com/in/muhammad-shafik-bin-mazlinan
+            </a>
+          </li>
+        </ul>
+      </address>
+    </section>
 
-    <section class="section-container">
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-top">
-      <h3 class="section-title">Nanyang Polytechnic</h3>
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-bottom">
-      <article class="section-article-container">
-        <h4 class="article-title">Game Development Technology / April 2014 - Sept 2018</h4>
-        <p>In order to reach the level of performance video games require to compete in the market, I had to gain a
-          comprehensive understanding of the modern computer architecture and use system-level langauges
-          such as C to make full use of the hardware's capabilities.
+    <section>
+      <h3>Nanyang Polytechnic</h3>
+      <article>
+        <h4>Game Development Technology / April 2014 - Sept 2018</h4>
+        <p>
+          In order to reach the level of performance video games need to simulate worlds in real-time, I studied
+          algorithms that are highly optimised for multicore memory hierarchies, allowing them to utilise all CPU cores
+          efficiently, and maximise audio and visual sample throughput. I implemented these algorithms in C/C++ for
+          various projects.
         </p>
       </article>
     </section>
 
-    <section class="section-container">
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-top">
-      <h3 class="section-title">Trampolene</h3>
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-bottom">
-      <article class="section-article-container">
-        <h4 class="article-title">Mobile Developer / May 2018 - Oct 2019</h4>
-        <p>I spearheaded the initial design and development of Trampolene's PoC application, using C#, Unity, and
-          Vuforia to provide
-          Augmented Reality experiences to seniors suffering with Dimentia. When my Internship ended after 3 months,
-          Trampolene hired me to continue my work with them.
+    <section>
+      <h3>Trampolene</h3>
+      <article>
+        <h4>Mobile Application Developer / May 2018 - Oct 2019</h4>
+        <p>
+          I spearheaded the initial design and development of Trampolene's mobile application. Using C#, Unity, and
+          Vuforia, I provided immersive Augmented Reality experiences to seniors suffering from Dimentia. I operated on
+          the principle of "Fail fast, Iterate quickly", by getting regular feedback from managers, and meeting with
+          clients on a bi-weekly basis, fixing issues before they linger too long.
         <p>
       </article>
     </section>
 
-    <section class="section-container">
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-top">
-      <h3 class="section-title">Singapore Armed Forces</h3>
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-bottom">
-      <article class="section-article-container">
-        <h4 class="article-title">Corporal / Nov 2019 - Nov 2021</h4>
-        <p>I mainly worked as a carrier, shipping classified documents between army bases. Due to the sensitive
-          nature of my packages, I had to adhere to rigorous security procedures, maintain proper reports, and keep to
-          a tight schedule
-          due to my limited window of access to these places. I ended up developing automated scripts on my phone
-          to help manage the process. Eventually, my superiors noticed my work and asked me for advice on automating
-          their systems.
+    <section>
+      <h3>Singapore Armed Forces</h3>
+      <article>
+        <h4>Corporal / Nov 2019 - Nov 2021</h4>
+        <p>
+          I mainly worked as a carrier, shipping classified documents between army bases. I adhered to rigorous security
+          procedures, sent live reports, and kept to a tight schedule. I often used python scripts on my phone to help
+          automate the process.
         </p>
       </article>
     </section>
 
-    <section class="section-container">
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-top">
-      <h3 class="section-title">1TX</h3>
-      <img src="section title border2.svg" width="680" height="13.125" class="section-title-border-bottom">
-      <article class="section-article-container">
-        <h4 class="article-title">Software Engineer / Sept 2022 - Current</h4>
-        <p>Though I had planned to continue my studies, I changed my mind just before enrollment and
-          decided jump straight into the industry. As 1TX was a startup company, individual employees like me were given
-          a lot of
-          responsibilities.
-          By the end of June 2024, I became involved in every stage of a software's lifecycle from designing the first
-          PoC
-          to development, testing, containerizing, deploying and managing the Kubernetes cluster, and monitoring for
-          errors. I continued to
-          use
-          automated tools with all my tasks and was often called upon to automate various processes with Python
-          scripts.
+    <section>
+      <h3>1TX</h3>
+      <article>
+        <h4>Cloud Solutions Architect / Sept 2022 - Current</h4>
+        <p>
+          Starting as a QA automation tester, I quickly worked my way up to eventually becoming a full-on Cloud
+          solutions architect. As the main architect for Quantify, I was responsible for improving the performance of
+          the cloud-native application. I made each microservice stateless, where multiple instances of the same
+          microservice can start and stop on demand without the need to sync up state, reduced the amount of locking
+          needed when executing PostgreSQL queries in parallel, did Ahead-Of-Time compilation using GraalVM to reduce
+          startup times, allowing services to better respond to sudden high loads, allowed asynchronous communication
+          between services using RabbitMQ, and finally, compressed each microservice into a single, small, independent
+          executable that the Linux kernel can run directly without any additional programs, deamons, nor libraries.
         <p>
       </article>
     </section>
