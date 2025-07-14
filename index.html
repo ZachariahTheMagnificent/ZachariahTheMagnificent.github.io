@@ -36,7 +36,6 @@
         <h3 class="section-title">Contact Info</h3>
         <ul>
           <li>+65 83501965</li>
-          <li>22 Sin Ming Lane #06-76 Midview City Singapore 573969</li>
           <li><a href="mailto:zachariah@zachariahs.world">zachariah@zachariahs.world</a></li>
           <li><a href="https://www.zachariahs.world/">www.zachariahs.world</a></li>
           <li><a href="https://www.github.com/ZachariahTheMagnificent/">github.com/ZachariahTheMagnificent</a></li>
@@ -50,56 +49,231 @@
     </section>
 
     <section>
-      <h3>Nanyang Polytechnic</h3>
+      <div class="skills-list">
+        <h3 class="section-title">Technical Skills</h3>
+        <ul>
+          <li>.NET</li>
+          <li>Alpine</li>
+          <li>Ansible</li>
+          <li>AWS Cognito</li>
+          <li>AWS ECS</li>
+          <li>AWS EKS</li>
+          <li>AWS IAM</li>
+          <li>AWS Kinesis</li>
+          <li>AWS Pod Identity</li>
+          <li>Bash Scripting</li>
+          <li>C/C++</li>
+          <li>C#</li>
+          <li>CSS</li>
+          <li>Dart</li>
+          <li>Docker</li>
+          <li>Flask</li>
+          <li>Flutter</li>
+          <li>Git Actions</li>
+          <li>Grafana</li>
+          <li>Helm</li>
+          <li>HTML</li>
+          <li>HTTP</li>
+          <li>InfluxDB</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>JMeter</li>
+          <li>JUnit</li>
+          <li>Kotlin</li>
+          <li>Kubernetes</li>
+          <li>KVM</li>
+          <li>Maven</li>
+          <li>Musl</li>
+          <li>Nginx</li>
+          <li>NodeJS</li>
+          <li>OAuth2</li>
+          <li>OpenAPI</li>
+          <li>Playwright</li>
+          <li>POSIX Scripting</li>
+          <li>PostgreSQL</li>
+          <li>Prometheus</li>
+          <li>Puppeteer</li>
+          <li>Python</li>
+          <li>QUIC</li>
+          <li>RabbitMQ</li>
+          <li>React Router</li>
+          <li>ReactJS</li>
+          <li>Redis</li>
+          <li>RedHat</li>
+          <li>S3</li>
+          <li>Selenium</li>
+          <li>Spring</li>
+          <li>TCP</li>
+          <li>Terraform</li>
+          <li>TypeScript</li>
+          <li>UDP</li>
+          <li>Unity</li>
+          <li>Virtualization</li>
+          <li>Vite</li>
+          <li>x86 Assembly</li>
+          <li>XML</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>Professional Experience</h3>
       <article>
-        <h4>Game Development Technology / April 2014 - Sept 2018</h4>
+        <h4>1TX / Cloud Solutions Architect / Sept 2022 - Current</h4>
+        <p>
+          Working in a small startup, I was expected to be able to work in multiple different positions simultaneously.
+          Starting as a QA automation tester, I quickly worked my way up to doing frontend and backend web development,
+          mobile development, DevOps, and even becoming a full-on Cloud Solutions architect.
+        <p>
+        <ul>
+          <li>
+            My initial tasks primarily involved using JMeter to conduct performance testing on the backends of various
+            web applications. The test was distributed among multiple computers running simultaneously to simulate high
+            loads.
+          </li>
+          <li>
+            Very often, we didn't have documentation on hand for the backend services so I had to record the HTTP
+            traffic sent in and out from the browser when doing usual user actions, analyse the HTTP contents and
+            headers, then simulate them in a JMeter script.
+          </li>
+          <li>
+            The results of the performance tests were given to a Python script I wrote to generate HTML reports with the
+            help of Jinja templates.
+          </li>
+          <li>
+            My proficiency in Python led me to taking over the Flask empowered Discovery Engine, a Web application
+            designed to use ML algorithms to search for the relevant solutions to specific problems. Using NLTK, Pandas
+            and Scikit, I learnt how to tokenize texts, turn them into vectors, and use those vectors to find the most
+            relevant solutions.
+          </li>
+          <li>
+            As I rapidly proved my skills, I eventually was given access to the Jenkins instance where I configured
+            CI/CD pipelines to develop, test, and deploy the web applications I worked on. These pipelines get executed
+            automatically on a periodic basis, generating security, performance, and code quality reports that get sent
+            to various interested parties through e-mail.
+          </li>
+          <li>
+            Because of my previous experience with Mobile development and Flutter, I was also tasked with training
+            people to develop an internal mobile application that automates certain security processes. The application
+            also had to be designed to work on Desktop too. I taught them the basics of Dart and how to use Flutter to
+            develop applications that could work on both Mobile and Desktop. Throughout the development, I was regularly
+            pulled into calls to help diagnose issues with the project and suggest patterns to use.
+          </li>
+          <li>
+            I became responsible for migrating the performance testing platform Quantify from EC2 to Kubernetes,
+            redesigning its architecture entirely to reduce its operating costs.
+          </li>
+          <li>
+            The Frontend of the Quantify Web application uses an outdated and unsupported React framework called Create
+            React App. I migrated the entire project to React Router framework, making the minimum necessary changes
+            needed to make the Web app work without changing its behaviour.
+          </li>
+          <li>
+            Over time, I optimised the responsiveness of the React frontend using Functional principles React excels
+            with, by removing unneeded state changes, making full use of React's caching mechanisms.
+          </li>
+          <li>
+            On the backend side, I slowly changed the old Spring Boot code to Spring Boot WebFlux, and it proved to be
+            an improvement to the responsiveness of the backend.
+          </li>
+          <li>
+            I made each microservice stateless so multiple instances can start and stop on demand without the need to
+            sync up state.
+          </li>
+          <li>
+            I reduced the amount of locking needed when executing PostgreSQL queries in parallel, by reducing the amount
+            of unnecessary dependencies.
+          </li>
+          <li>
+            I did Ahead-Of-Time compilation using GraalVM to reduce startup times, allowing services to better respond
+            to sudden high loads, while also reducing overall resource usage.
+          </li>
+          <li>
+            I cached data transformations in-memory using Redis, reducing compute time and increasing responsiveness
+            for recently accessed web resources whose dependent data hasn't changed since last access.
+          </li>
+          <li>
+            I allowed asynchronous communication between services using RabbitMQ, allowing the services to communicate
+            changes to their data without interrupting current processes and without having services wait for each other
+            to respond.
+          </li>
+          <li>
+            I compressed each microservice into a single, small, independent executable that the Linux kernel
+            can run directly without any additional programs, deamons, nor libraries, reducing a lot of overhead costs.
+          </li>
+          <li>
+            I used OAuth2 to create a decentralized Authentication and Authorization mechanism to help manage security
+            where private resources are distributed across multiple microservices.
+          </li>
+          <li>
+            I wrote Terraform scripts that allows anyone to deploy the Quantify application to their cloud platform in
+            an automated way. It also deploys to different cloud services rather than being attached to a specific cloud
+            service like AWS.
+          </li>
+        </ul>
+      </article>
+      <hr style="width:90%">
+      <article>
+        <h4>Singapore Army / Corporal / Nov 2019 - Nov 2021</h4>
+        <p>
+          As part of my national service, I was enlisted to the Singapore Army. I mainly worked as a carrier, shipping
+          classified documents between army bases. I adhered to rigorous security procedures, sent live reports, and
+          kept to a tight schedule. I often used python scripts on my phone to help automate the process.
+        </p>
+      </article>
+      <hr style="width:90%">
+      <article>
+        <h4>Trampolene / Mobile Application Developer / May 2018 - Oct 2019</h4>
+        <p>
+          I spearheaded the initial design and development of Trampolene's various different Desktop, Web and Mobile
+          applications, mainly targeting the Healthcare sector. I was involved in the entire Software Development
+          Lifecycle of these applications.
+        </p>
+        <ul>
+          <li>
+            Using C#, Unity, and Vuforia, I made an Android Mobile app that provided immersive Augmented Reality
+            experiences to seniors suffering from Dementia. Using markers placed around the room, I was able to overlay
+            iconic landmarks from the patient's childhood into the environment and have them interact with these
+            childhood memories as if they were there.
+          </li>
+          <li>
+            I also implemented a learning app designed to teach life skills to special needs children. Using Flutter and
+            Dart, I was able to deploy a Web, Desktop, and Mobile version of the application, for classroom and personal
+            use.
+          </li>
+          <li>
+            Since I was fully responsible for the design of these applications, I had to design the UI/UX of each
+            application myself, coding mockups of them to present to the client to see if they're adequate before
+            actually implementing the actual features.
+          </li>
+          <li>
+            I was responsible for setting up the Continuous Integration pipelines of these applications, setting them up
+            in AppVeyor, writing unit tests, Bash scripts, configuring the environment, and sending the HTML report
+            through e-mail.
+          </li>
+          <li>
+            The reports also included performance measurements of the application, to help make better decisions on when
+            optimisations should be made. My formal education on low-level computer architecture and analysing Algorithm
+            Efficiency using Big O was used heavily to figure out why certain performance issues were happening
+            and how to fix them.
+          </li>
+          <li>
+            I very often had to meet with the company's clients myself, and explain to them how the application works
+            without getting too technical, gathering feedback during the demo.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <article>
+        <h4>Nanyang Polytechnic / Game Development / April 2014 - Sept 2018</h4>
         <p>
           In order to reach the level of performance video games need to simulate worlds in real-time, I studied
           algorithms that are highly optimised for multicore memory hierarchies, allowing them to utilise all CPU cores
           efficiently. I implemented these algorithms in C/C++ for various projects.
         </p>
-      </article>
-    </section>
-
-    <section>
-      <h3>Trampolene</h3>
-      <article>
-        <h4>Mobile Application Developer / May 2018 - Oct 2019</h4>
-        <p>
-          I spearheaded the initial design and development of Trampolene's mobile application. Using C#, Unity, and
-          Vuforia, I provided immersive Augmented Reality experiences to seniors suffering from Dementia. Using markers
-          placed around the room, I was able to overlay iconic landmarks from the patient's childhood into the
-          environment and have them interact with these childhood memories as if they were there.
-        <p>
-      </article>
-    </section>
-
-    <section>
-      <h3>Singapore Armed Forces</h3>
-      <article>
-        <h4>Corporal / Nov 2019 - Nov 2021</h4>
-        <p>
-          I mainly worked as a carrier, shipping classified documents between army bases. I adhered to rigorous security
-          procedures, sent live reports, and kept to a tight schedule. I often used python scripts on my phone to help
-          automate the process.
-        </p>
-      </article>
-    </section>
-
-    <section>
-      <h3>1TX</h3>
-      <article>
-        <h4>Cloud Solutions Architect / Sept 2022 - Current</h4>
-        <p>
-          Starting as a QA automation tester, I quickly worked my way up to eventually becoming a full-on Cloud
-          solutions architect. As the main architect for Quantify, I was responsible for improving the performance of
-          the cloud-native application. I made each microservice stateless, where multiple instances of the same
-          microservice can start and stop on demand without the need to sync up state, reduced the amount of locking
-          needed when executing PostgreSQL queries in parallel, did Ahead-Of-Time compilation using GraalVM to reduce
-          startup times, allowing services to better respond to sudden high loads, allowed asynchronous communication
-          between services using RabbitMQ, and finally, compressed each microservice into a single, small, independent
-          executable that the Linux kernel can run directly without any additional programs, deamons, nor libraries.
-        <p>
       </article>
     </section>
   </main>
