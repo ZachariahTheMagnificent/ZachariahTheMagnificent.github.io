@@ -139,6 +139,11 @@ p {
     }
 
     .skills-list {
+      h4 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+
       ul {
         margin: 0;
         padding: 0;
@@ -155,6 +160,10 @@ p {
           border-radius: 0.2rem;
         }
       }
+    }
+
+    hr {
+      width: 90%;
     }
 
     article {
